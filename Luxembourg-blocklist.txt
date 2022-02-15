@@ -1,0 +1,47 @@
+! govbar and other useless distractions
+||cdn.public.lu/skizz/govbar/*
+||cdn.public.lu/pictures/logos/renow*.png$image
+lu##govbar
+lu##.messenger--cookie.messenger
+lu##.renow
+lu##.gouvernemental_messenger
+lu##.govbar
+gouvernement.lu##.header-tab
+gouvernement.lu##.messenger--cookie.messenger
+! geocatalogue.geoportail.lu govbar
+geoportail.lu##.act-header-geoportail.ng-scope.act-header.act-geoportail
+! spslux cookie notice
+www.spslux.lu###dialogAcceptCookiePolicy
+! govbar?
+demarches.services-publics.lu##.linkBar3.row
+
+! Woxx end of article support
+www.woxx.lu##h5
+
+! wort.lu subscribe ad and sponsored "articles"
+www.wort.lu###subscribe-bar
+www.wort.lu##.teaser__badge--sponsored:nth-ancestor(4)
+
+! luxtimes.lu advertorial
+www.luxtimes.lu##.l--advertorial
+
+! RTL ads
+||rtl-sites-assets.rtl.lu/images/partner/$image
+www.rtl.lu##.rtl-sport-hls__sponsor
+www.rtl.lu##.ipl-ref.l-footer__ipl
+
+! L'Essentiel sponsored content (only French?)
+www.lessentiel.lu##div>h3>a:has-text(/sponsorisé/):nth-ancestor(4)
+
+! Pizzicato ads
+www.pizzicato.lu###right
+www.pizzicato.lu###left
+
+! spellchecker.lu pub
+spellchecker.lu##.pub
+
+! post permanent phishing alert.
+www.post.lu##.show.alert-dismissible.alert-global.alert
+
+! CIM internet metrics
+lu##a[href*="//www.cim.be/fr/."]
