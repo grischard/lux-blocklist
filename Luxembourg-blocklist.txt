@@ -6,10 +6,6 @@
 ! License: https://creativecommons.org/publicdomain/zero/1.0/
 ! Homepage: https://github.com/grischard/lux-blocklist
 ! Reporting Issues: https://github.com/grischard/lux-blocklist/issues
-! 
-! Legal stuff (T&C's).
-! In no event shall Fanboy List, or the list author be liable for any indirect, direct, punitive, special, incidental, or consequential damages whatsoever.
-! By downloading or viewing, or using this list, you are accepting these terms and the license.
 
 ! govbar and other useless distractions
 ||cdn.public.lu/skizz/govbar/*
