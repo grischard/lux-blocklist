@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Checksum: u9+YyMdyXHmpfqNEi1kDnA
+! Checksum: iTLZ1EiJU5jF623Ytymc9Q
 ! Title: Luxembourg Blocklist
-! Updated: 15 Feb 2022
+! Updated: 27 Jul 2022
 ! Expires: 5 days
 ! License: https://creativecommons.org/publicdomain/zero/1.0/
 ! Homepage: https://github.com/grischard/lux-blocklist
@@ -38,9 +38,12 @@ www.luxtimes.lu##.l--advertorial
 ||rtl-sites-assets.rtl.lu/images/partner/$image
 www.rtl.lu##.rtl-sport-hls__sponsor
 www.rtl.lu##.ipl-ref.l-footer__ipl
+www.rtl.lu##.gallery__legal
 
-! L'Essentiel sponsored content (only French?)
+! L'Essentiel (sponsored content only French?)
 www.lessentiel.lu##div>h3>a:has-text(/sponsorisé/):nth-ancestor(4)
+www.lessentiel.lu##aside>span:has-text(/^Publicité$/):upward(1)>div
+www.lessentiel.lu##aside>span:has-text(/^Werbung$/):upward(1)>div
 
 ! Pizzicato ads
 www.pizzicato.lu###right
@@ -54,3 +57,6 @@ www.post.lu##.show.alert-dismissible.alert-global.alert
 
 ! CIM internet metrics
 lu##a[href*="//www.cim.be/fr/."]
+
+! legicopylux.free.fr
+legicopylux.free.fr###confirmOverlay
